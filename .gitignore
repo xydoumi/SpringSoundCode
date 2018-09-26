@@ -1,0 +1,24 @@
+﻿
+# IntelliJ project files
+.idea
+*.iml
+*.ipr
+*.iws
+out
+gen
+catalina.home_IS_UNDEFINED
+log.server_IS_UNDEFINED
+
+# protobuf files
+*.proto
+
+# Maven
+target/
+*.ser
+*.ec
+
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata/
