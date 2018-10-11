@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>edu.doumi.ioc.myIoc.MyBeanDefinition</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">edu.doumi.ioc.myIoc.MyBeanDefinition</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="110.0" y="84.0" />
+  <SelectedNodes>
+    <node>edu.doumi.ioc.myIoc.MyBeanDefinition</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

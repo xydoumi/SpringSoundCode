@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-    <bean id="Person" class="edu.doumi.ioc.personImpl.Student"></bean>
+<?xml version="1.0" encoding="utf-8"?>
+<beans>
+    <!--<bean name="person" class="edu.doumi.ioc.personImpl.Student" scope="prototype">
+    </bean>-->
+    <component-scan back_package="edu.doumi.ioc.personImpl,edu.doumi.ioc.ServiceImpl"></component-scan>
 </beans>

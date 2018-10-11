@@ -5,14 +5,20 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class ExecuteEnter {
     public static void main(String args[]){
-        ApplicationContext context = new ClassPathXmlApplicationContext("classpath:application.xml");
+  /*      ApplicationContext context = new ClassPathXmlApplicationContext("classpath:application.xml");
         System.out.println("application 加载完成");
         Person student = context.getBean(Person.class);
-        student.work();
+        student.work();*/
         /*new Thread(new TestThread()).start();
         new Thread(new TestThread()).start();*/
+        List<String> a = Arrays.asList("a","cd","we");
+        System.out.println(a.contains("c"));
     }
 }
 
